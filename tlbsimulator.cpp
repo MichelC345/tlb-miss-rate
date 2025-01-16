@@ -46,7 +46,9 @@ struct TLB {
 };
 
 int main() {
-    const string traceFile = "gcc.trace"; // Nome do arquivo com os traces
+    //const string traceFile = "christmastree.trace"; // Nome do arquivo com os traces
+    //const string traceFile = "cryptotext.trace"; // Nome do arquivo com os traces
+    const string traceFile = "seven.trace"; // Nome do arquivo com os traces
     const size_t pageSize = 4096;  // Tamanho das páginas de 4 KB
     const size_t tlbSize = 16;     // Número de entradas em ambas as TLBs
 
