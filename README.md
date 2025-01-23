@@ -2,7 +2,7 @@
 Análise da taxa de falhas da TLB (Translation Lookaside Buffer) utilizando traces de memória gerados com a ferramenta Valgrind. Os passos descritos a seguir devem ser executados na raiz do projeto.
 
 
-# Passo 1: Compilar
+## Passo 1: Compilar
 Executar os comandos:
 
 ``g++ codigos/christmastree.cpp -o codigos/christmastree``
